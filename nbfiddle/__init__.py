@@ -74,13 +74,10 @@ class Fiddle(object):
 
      
     require({{jslibs_names}}, function({{jslibs_objs}}) {
-   
-        (function(){
- 
+    
         var element = $('#{{div_id}}');
 """ + self.js +  u"""
-   
-       })(); 
+    
     });
 
 </script>
